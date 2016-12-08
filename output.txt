@@ -1,0 +1,227 @@
+
+<link rel="stylesheet" href="http://www.suningcloud.com/webstatic/ysc/css/head.css" type="text/css" media="all">
+<script type="text/javascript">
+    var passportParam = passportParam || {
+                "logoutPassport":'http://www.suningcloud.com/logout.do',
+                "passportLogonUrl":'https://passport.suning.com/ids/login',
+                "passportServiceUrl":'http://www.suningcloud.com/auth',
+                "passportLogonAuth":'http://www.suningcloud.com/logon/userLogon.do',
+                "userCenterUrl":'http://www.suningcloud.com/user/center.do'
+            };
+    var sn = sn || {
+                "context" : '/emall',
+                "domain" : 'www.suning.com',
+                "memberDomain" : 'member.suning.com',
+                "scriptDomianDir":'https://imgssl.suning.com',
+                "storeId": "10052",
+                "catalogId": "10051",
+                "online": "online.suning.com",
+                "cookieDomain": '.suningcloud.com',
+                'webDomainPath':'http://www.suningcloud.com',
+                'base':'http://www.suningcloud.com'
+            };
+</script>
+<!-- 顶通开始 [[ -->
+<div class="toolbar">
+    <div class="headwrap container clearfix">
+        <div class="leftbar l">
+            <span class="welcome link">&#x6B22;&#x8FCE;&#x6765;&#x5230;&#x82CF;&#x5B81;&#x4E91;</span>
+            <!--个人 [[-->
+            <div class="j_linksbox link userprofilebox ib posr" id="ld" style="display:none;">
+                <a href="javascript:void(0);" class="ib">
+                    <span class="username" id="nickName">
+                    </span>
+                    <em class="down"></em>
+                </a>
+                <div class="j_sitenav ng-sn-site-nav userprofile posa oh nav-pd" style="display:none;">
+                    <a class="block" href="http://www.suningcloud.com/myorder/list.do" id="myOrderMenu" style="display:none;">&#x6211;&#x7684;&#x8BA2;&#x5355;</a>
+                    <a class="block" href="http://www.suningcloud.com/user/myservice/myserviceIndex.do">&#x6211;&#x7684;&#x670D;&#x52A1;</a>
+                    <a class="block" href="http://www.suningcloud.com/account/index.htm">&#x4F1A;&#x5458;&#x8D44;&#x6599;</a>
+                    <a class="block" href="http://www.suningcloud.com/message/myMessage.do">&#x6D88;&#x606F;&#x4E2D;&#x5FC3;</a>
+                    <a class="block" href="http://www.suningcloud.com/logout.do">&#x9000;&#x51FA;</a>
+                </div>
+            </div>
+            <!--登录 [[-->
+            <div class="link ib" id="nld">
+                <a href="javascript:void(0);" name="ysc_sy_ymdh0001" class="link">&#x8BF7;&#x767B;&#x5F55;</a><span>|</span>
+                <a href="https://reg.suning.com/person.do?myTargetUrl=http://www.suningcloud.com&amp;custSource=257000000090" name="ysc_sy_ymdh0002" class="link">&#x6CE8;&#x518C;</a>
+            </div>
+            <!--个人 [[-->
+        </div>
+        <div class="rightbar r">
+            <a href="http://www.suningcloud.com" class="link" name="ysc_sy_ymdh0003">&#x82CF;&#x5B81;&#x4E91;&#x9996;&#x9875;</a><span>|</span>
+            <a href="http://fuwu.suning.com" name="ysc_sy_ymdh0004" target="_blank" class="link">&#x670D;&#x52A1;&#x5E02;&#x573A;</a><span>|</span>
+            <a href="http://www.suningcloud.com/user/center.do" name="ysc_sy_ymdh0005" class="link">&#x7528;&#x6237;&#x4E2D;&#x5FC3;</a><span>|</span>
+            <a href="http://isv.suningcloud.com" class="link" name="ysc_sy_ymdh0006" target="_blank">ISV&#x670D;&#x52A1;&#x5546;</a><span>|</span>
+<!--网站导航 [[-->
+<div class="j_linksbox link ib posr">
+    <a href="javascript:void(0);" class="ib linkwrap">
+        <span>&#x7F51;&#x7AD9;&#x5BFC;&#x822A;</span>
+        <em class="down"></em>
+    </a>
+   <div class="j_sitenav ng-sn-site-nav posa oh nav-pd" style="display: none;">
+        <dl class="sn-site-list lnb">
+            <dt>
+                &#x5FEB;&#x901F;&#x901A;&#x9053;
+            </dt>
+            <dd>
+                <p><a href="http://fws.suning.com/" target="_blank">&#x6210;&#x4E3A;&#x670D;&#x52A1;&#x5546;</a></p>
+                <p><a href="http://open.suning.com/" target="_blank">&#x5F00;&#x53D1;API </a></p>
+                <p><a href="http://www.suning.com/" target="_blank">&#x82CF;&#x5B81;&#x6613;&#x8D2D;  </a></p>
+            </dd>
+        </dl>
+        <dl class="sn-site-list lnb brno">
+            <dt>
+                &#x82CF;&#x5B81;&#x4E91;&#x53F0;
+            </dt>
+            <dd>
+                <p><a href="http://sop.suning.com/sel/portal/aicenter/aicenter.html" target="_blank">&#x62DB;&#x5546;&#x4E2D;&#x5FC3;</a></p>
+                <p><a href="http://sop.suning.com/sel/portal/finance/financeService.html" target="_blank">&#x91D1;&#x878D;&#x4E2D;&#x5FC3; </a></p>
+                <p><a href="http://stc.suning.com/" target="_blank">&#x57F9;&#x8BAD;&#x4E2D;&#x5FC3;</a></p>
+                <p><a href="http://sop.suning.com/sel/portal/tradeCenter/openService.html" target="_blank">&#x589E;&#x503C;&#x670D;&#x52A1;</a></p>
+                <p><a href="http://fuwu.suning.com/" target="_blank">&#x670D;&#x52A1;&#x5E02;&#x573A;</a></p>
+            </dd>
+        </dl>
+    </div>
+
+</div>
+<!--网站导航 ]]-->
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/js/header.js?v=20161207"></script>
+<!-- 顶通结束 ]] -->
+<!--header [[-->
+<div class="mainHead posr">
+    <div class="container mainBg">
+        <a href="http://www.suningcloud.com" class="logo block l"><img src="http://www.suningcloud.com/webstatic/ysc/images/logo.png" class="vm"></a>
+        <div class="l navbar clearfix" id="j_second_navbar">
+<!-- 云商城 [[-->
+    <div class="j_linksbox navlink headlinkwrap posr  ib">
+        <a href="http://www.suningcloud.com/productAndService/queryAll.htm" class="ib" name="ysc_sy_dbdh0002">
+            <span class="username">
+             &#x4E91;&#x5546;&#x57CE;<em class="ng-iconfont down"></em>
+            </span>
+        </a>
+        <div class="j_sitenav ng-sn-site-nav  ng-sn-site-nav3 bs posa oh nav-pd" id="cloudMall" style="display:none;">
+        </div>
+    </div>
+<!-- 云商城 ]] -->
+<!-- 解决方案 [[-->
+    <div class="j_linksbox navlink headlinkwrap posr  ib">
+        <a href="http://www.suningcloud.com/searchAll/queryAllSolutions.htm" class="ib">
+            <span class="username">
+             &#x89E3;&#x51B3;&#x65B9;&#x6848;<em class="ng-iconfont down"></em>
+            </span>
+        </a>
+        <div class="j_sitenav ng-sn-site-nav ng-sn-site-nav4  bs posa oh nav-pd" id="solution" style="display:none;">
+        </div>
+    </div>
+<!-- 解决方案 ]] -->
+            <a href="http://www.suningcloud.com/serviceCenter/toServiceHomePage.htm" name="ysc_sy_dbdh0004" class="navlink isvJoin">&#x670D;&#x52A1;&#x5546;&#x52A0;&#x76DF;</a>
+<!-- 帮助中心 [[-->
+    <div class="j_linksbox navlink headlinkwrap posr  ib">
+        <a href="http://www.suningcloud.com/helpCenter/home.htm" class="ib" name="ysc_sy_dbdh0005">
+            <span class="username">
+             &#x5E2E;&#x52A9;&#x4E2D;&#x5FC3;<em class="ng-iconfont down"></em>
+            </span>
+        </a>
+        <div class="j_sitenav ng-sn-site-nav  ng-sn-site-nav3 bs posa oh nav-pd" id="helpCenter" style="display:none; left:-341px;">
+        </div>
+    </div>
+<!-- 帮助中心 ]] -->
+            <div class="j_searchwrap searchwrap l wauto clearfix posr">
+                <div class="searchinner bgw l  clearfix">
+                    <input type="text" class="j_searchbox searchbox l" name="ysc_sy_dbdh0008" maxlength="10" value="" placeholder="&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x8981;&#x641C;&#x7D22;&#x7684;&#x5185;&#x5BB9;" id="keyWord">
+                    <button class="j_searchicon searchicon block l"></button>
+                </div>
+                <div class="search-word" tabindex="1">
+                    <ul id="hotWordUl">
+                    </ul>
+                </div>
+                <a href="http://www.suningcloud.com/user/center.do" name="ysc_sy_dbdh0007" class="ib hm w-10 bgw tac r ml-2 fs14px round-2 posr topBtn2">&#x7528;&#x6237;&#x4E2D;&#x5FC3;</a>
+                <a href="http://www.suningcloud.com/consultation/toConsultationBrdView.htm" target="_blank" name="ysc_sy_dbdh0006" class="ib hm w-10 white bgBlue tac r fs14px round-2 topBtn3">&#x5B9A;&#x5236;&#x670D;&#x52A1;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="resourceType" value="suningcloudweb">
+<!-- header ]] -->
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/ysc/js/secondHeader.js?v=20161207"></script>
+
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/ysc/js/main.js"></script>
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/ysc/js/swipe.js"></script>
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/ysc/js/util.js"></script>
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/ysc/js/slide.js"></script>
+<script type="text/javascript" src="http://www.suningcloud.com/webstatic/ysc/js/ssa.js"></script>
+
+<script type="text/javascript">
+$(function() {
+    var h = new Common.home();
+    var nav = new Common.navbar();
+
+    var placeholder = '请输入您要搜索的内容';
+
+    //点击埋点.
+    $("a[name^=ysc_sy_]").live("click", function () {
+        try {
+            sa.click.sendDatasIndex(this);
+        } catch (e) {
+        }
+    });
+
+
+    $.post("http://www.suningcloud.com/ajax/getHotKeywords.htm", function (data) {
+        if (data) {
+            placeholder = data[0];
+            $('#keyWord').attr('placeholder',placeholder);
+        }
+    });
+
+    //我的代码
+    var h = true;
+    $('.j_searchbox').focus(function () {
+        h = true;
+        $(this).attr('placeholder', '');
+        $.post("http://www.suningcloud.com/ajax/getHotKeywords.htm", function (data) {
+            if (data) {
+                $('.search-word li').unbind('click');
+
+                var rows = ['<li class="noBg">大家正在搜 &gt;</li>'];
+                $.each(data, function (n, val) {
+                    var li = '<li>' + val + '</li>';
+                    rows.push(li);
+                });
+                $('#hotWordUl').html(rows.join(''));
+
+                $('.search-word li').click(function(){
+                    if($(this).index()!=0){
+                        var str=$(this).text();
+                        $('.j_searchbox').val(str);
+                        $('.search-word').hide();
+                        var url = "http://www.suningcloud.com/searchAll/searchByKeyWord.htm?keyWord=" + encodeURIComponent(str);
+                        window.location.href = encodeURI(url);
+                    }
+                });
+            }
+        });
+        $('.search-word').show();
+    });
+
+    $('.j_searchbox,.search-word').focusout(function(ev){
+        if($(this).val()==''){
+            $(this).attr('placeholder',placeholder);
+        }
+        if(h){
+            $('.search-word').hide();
+        }
+    }).mouseover(function(){
+        h=false;
+
+    }).mouseout(function(){
+        h=true;
+    });
+
+});
+
+</script>
