@@ -6,19 +6,14 @@ import request from 'request';
 import fs from 'fs';
 
 export default class extends Base {
-  /**
-   * index action
-   * @return {Promise} []
-   */
+  httpService = think.service('httpservice');
+  baseUrl = 'https://nanjing.anjuke.com/';
   indexAction() {
     console.log('--------------running----------------');
-    //auto render template file index_index.html
     request('http://www.suningcloud.com', function (error, response, body) {
-      console.log(error);
       if (!error && response.statusCode == 200) {
         var $ = cheerio.load(body);
         var data = $('div').html();
-        console.log(data);
         fs.writeFile('output.txt', data, function (err) {
           if (err) {
           } else { }
@@ -29,4 +24,23 @@ export default class extends Base {
     })
     // return this.display();
   }
+
+  getareaAction() {
+    console.log('^^^^^^^^^^^^^^^^^^^^^');
+    request(this.baseUrl, function (error, response, body) {
+      if (!error && response.statusCode == 200) {
+        var $ = cheerio.load(body);
+        var data = $('div').html();
+        fs.writeFile('output.txt', data, function (err) {
+          if (err) {
+          } else { }
+        })
+      } else {
+        console.log(error);
+        console.log(response);
+      }
+    })
+}
+
+
 }
